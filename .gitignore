@@ -1,0 +1,65 @@
+# sbatch files
+*.bash
+*.out
+
+# personal or big output files
+*.pickle
+**/checkpoint*/
+*.bin
+**/*.pkl
+*.dict.txt
+*.pt
+**/network=*model_reps.dict
+**/network=*entropy_global.txt
+**/model_reps_all_layers.npy
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
